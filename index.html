@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Workers</title>
+</head>
+<body>
+    <script src="helper.js"></script>
+    <section>
+        <h1>Dedicated Web Worker</h1>
+        <button onclick="startDedicated()">Start Worker</button>
+        <button onclick="terminateDedicated()">Terminate Worker</button>
+        <button onclick="start10Dedicated()">Start 10 Workers</button>
+    </section>
+    <section>
+        <h1>Shared Web Worker</h1>
+        <button onclick="startShared()">Start or Connect to Worker</button>
+    </section>
+</body>
+</html>
