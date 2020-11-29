@@ -38,7 +38,7 @@ function start() {
             </li>`;
     });
     html += "</ul><hr>";
-    //
+    // sending back the data
     self.postMessage({
       action: "progress",
       data: i / data.length,
