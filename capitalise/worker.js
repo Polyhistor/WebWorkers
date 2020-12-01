@@ -14,6 +14,7 @@ self.addEventListener("message", (event) => {
   }
 });
 
+// function to dinstance capital cities distance
 function start() {
   let html = "";
   data.forEach((country, i) => {
